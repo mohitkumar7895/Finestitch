@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 90" fill="none">
+  <defs>
+    <!-- Radiant Gradients -->
+    <radialGradient id="emblemGradW" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ff9f24" />
+      <stop offset="65%" stop-color="#ea7a1e" />
+      <stop offset="100%" stop-color="#b85304" />
+    </radialGradient>
+    <radialGradient id="tealRimW" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#006b80" />
+      <stop offset="85%" stop-color="#004c5c" />
+      <stop offset="100%" stop-color="#003542" />
+    </radialGradient>
+    <linearGradient id="goldSheenW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fce38a" />
+      <stop offset="50%" stop-color="#e5a93b" />
+      <stop offset="100%" stop-color="#b37618" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left: Circular Medallion Emblem -->
+  <g transform="translate(6, 5)">
+    <!-- Outer Gold Ring -->
+    <circle cx="40" cy="40" r="39" fill="url(#goldSheenW)" />
+    <!-- Navy Mid Rim -->
+    <circle cx="40" cy="40" r="36" fill="url(#tealRimW)" stroke="#e5a93b" stroke-width="1" />
+    <!-- Stitched Dotted Circle -->
+    <circle cx="40" cy="40" r="32" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.8" />
+    <!-- Inner Radiant Orange Core -->
+    <circle cx="40" cy="40" r="26" fill="url(#emblemGradW)" />
+
+    <!-- Center Tailoring Scissors & Needle Motif -->
+    <g transform="translate(40, 27)" stroke="#ffffff" stroke-width="1.6" fill="none">
+      <circle cx="-6" cy="-5" r="3.2" stroke="#ffffff" stroke-width="1.3" />
+      <circle cx="6" cy="-5" r="3.2" stroke="#ffffff" stroke-width="1.3" />
+      <path d="M-4 -2 L5 16" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+      <path d="M4 -2 L-5 16" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="0" cy="5" r="1.2" fill="#ffffff" />
+    </g>
+
+    <path id="miniTextArcW" d="M 18 52 Q 40 60 62 52" fill="none" />
+    <text font-family="'Segoe UI', Roboto, sans-serif" font-size="6.8" font-weight="900" fill="#ffffff" letter-spacing="1">
+      <textPath href="#miniTextArcW" startOffset="50%" text-anchor="middle">
+        FINE STITCH
+      </textPath>
+    </text>
+  </g>
+
+  <!-- Right: White Typography -->
+  <g transform="translate(100, 16)">
+    <text x="0" y="32" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="900" font-size="33" fill="#ffffff" letter-spacing="0.5">
+      FINE STITCH
+    </text>
+    <text x="2" y="52" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="800" font-size="14" fill="#eeb012" letter-spacing="4.5">
+      UNIFORMS
+    </text>
+    <text x="135" y="52" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="600" font-size="9" fill="#cbd5e1" letter-spacing="1.5">
+      • BESPOKE APPAREL
+    </text>
+  </g>
+</svg>
